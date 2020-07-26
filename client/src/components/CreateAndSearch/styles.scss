@@ -1,0 +1,12 @@
+.main-createAndSearch{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    
+    .input-field{
+        width: 77%;
+    }
+    button{
+        z-index: 0;
+    }
+}

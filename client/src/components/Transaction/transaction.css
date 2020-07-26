@@ -1,0 +1,42 @@
+.transacion-grid {
+  margin-bottom: 5px;
+  padding: 5px;
+  border-radius: 5px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 40px auto 170px 40px 40px;
+      grid-template-columns: 40px auto 170px 40px 40px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: start;
+}
+
+.transacion-grid .transacion-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.transacion-grid #money {
+  font-size: 25px;
+}
+
+.transacion-grid i {
+  font-size: 20px;
+}
+
+.transacion-grid button {
+  background-color: inherit;
+  border: none;
+  cursor: pointer;
+}
+
+.strong {
+  font-weight: bold;
+}
+/*# sourceMappingURL=transaction.css.map */

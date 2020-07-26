@@ -1,0 +1,30 @@
+.transacion-grid{
+    margin-bottom: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: 40px auto 170px 40px 40px;
+    align-items: center;
+    text-align: start;
+
+    .transacion-flex{
+        display: flex;
+        flex-direction: column;
+
+    }
+    
+    #money{
+        font-size: 25px;
+    }
+    i{
+        font-size: 20px;
+    }
+    button{
+        background-color: inherit;
+        border: none;
+        cursor: pointer;
+    }
+}
+.strong{
+    font-weight: bold;
+}

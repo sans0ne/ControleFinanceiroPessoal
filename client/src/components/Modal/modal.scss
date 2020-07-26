@@ -1,0 +1,66 @@
+div.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    p{
+        font-weight: bold;
+        font-size: 20px;
+    }
+}
+div.form-container{
+    padding: 20px;
+    border: 1px solid rgb(204, 204, 204);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    div.input-radio{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+        span#despesa{
+            font-weight: bold;
+            color: red;
+        }
+        span#receita{
+            font-weight: bold;
+            color: #32CD32;
+        }
+    }
+    div.number-date{
+        box-sizing: border-box;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 4px;
+        align-items: center;
+        justify-content: space-between;
+
+        div.input-field{
+            width:100%;
+        }
+
+        input#date{
+            height: 25px;
+            border: 1px solid rgb(204, 204, 204);
+        }
+    }
+}
+form button{
+    margin-top: 10px;
+}
+.ReactModal__Overlay{
+    opacity: 0;
+    transition: opacity 500ms ease-in-out;
+}
+.ReactModal__Overlay--after-open{
+    opacity: 1;
+}
+.ReactModal__Overlay--before-close{
+    opacity: 0;
+}
+.ReactModal__Body--open,
+.ReactModal__Html--open{
+    overflow: hidden;
+}

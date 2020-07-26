@@ -1,0 +1,27 @@
+.main {
+  margin-top: 10px;
+  padding: 5px;
+  border: 1px solid cadetblue;
+  border-radius: 2px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#incomes,
+#outcomes,
+#balance {
+  font-weight: bold;
+}
+
+#incomes {
+  color: #32CD32;
+}
+
+#outcomes {
+  color: red;
+}
+/*# sourceMappingURL=styles.css.map */
