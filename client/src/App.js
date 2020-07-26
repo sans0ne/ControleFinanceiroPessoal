@@ -26,7 +26,7 @@ export default function App() {
   useEffect(() => {
 
     (async () => {
-      const url = `http://localhost:3001/api/transaction?period=${currentPeriod}`
+      const url = `https://blooming-inlet-21211.herokuapp.com/api/transaction?period=${currentPeriod}`
       const resource = await fetch(url)
       const json = await resource.json()
       
